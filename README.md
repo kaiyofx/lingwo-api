@@ -56,11 +56,11 @@ https://github.com/user-attachments/assets/a5b35426-285e-464b-832a-1a06247ea041
 
 1. Клонируем репозиторий
    ```sh
-   git clone https://github.com/kaiyofx/lingwo.git
+   git clone https://github.com/kaiyofx/lingwo-api.git
    ```
 2. Перейдите в него
    ```sh
-   cd lingwo
+   cd lingwo-api
 3. В `.env` установите ваш `OPENAI_API_KEY`
 4. Запустите Dockerfile
    ```sh
