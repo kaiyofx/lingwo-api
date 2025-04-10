@@ -62,9 +62,9 @@ https://github.com/user-attachments/assets/a5b35426-285e-464b-832a-1a06247ea041
    ```sh
    cd lingwo
 3. В `.env` установите ваш `OPENAI_API_KEY`
-4. Запустите Docker Compose
+4. Запустите Dockerfile
    ```sh
-   docker compose up -d
+   docker build --tag "lingwo-api" | docker run -d "lingwo-api"
    ```
 
 ### Переменные
